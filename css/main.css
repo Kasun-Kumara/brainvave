@@ -520,7 +520,6 @@ form,
 /* ===================================================================
  * # preloader
  *
- * ------------------------------------------------------------------- */
 #preloader {
     position: fixed;
     top: 0;
@@ -598,6 +597,7 @@ form,
 }
 
 
+ * ------------------------------------------------------------------- */
 
 /* ===================================================================
  * # forms
@@ -2957,6 +2957,7 @@ html.no-csstransitions .home-content__main {
 .s-contact {
     background-color: #151515;
     background-image: url("../images/contact-bg-blue.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
