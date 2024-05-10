@@ -79,13 +79,13 @@
                         <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/94787469446"><i class='bx bxl-whatsapp' ></i></i></a>
+                        <a href="https://wa.me/94741175199"><i class='bx bxl-whatsapp' ></i></i></a>
                     </li>
                     <li>
-                        <a href="tel:94787469446"><i class='bx bx-phone' ></i></a>
+                        <a href="tel:94741175199"><i class='bx bx-phone' ></i></a>
                     </li>
                     <li>
-                        <a href="sms:+94787469446?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
+                        <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
                     </li>
                 </ul>
 
@@ -150,13 +150,13 @@
                 <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i><span>Mail</span></a>
             </li>
             <li>
-                <a href="https://wa.me/94787469446"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+                <a href="https://wa.me/94741175199"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
             </li>
             <li>
-                <a href="tel:94787469446"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone</span></a>
+                <a href="tel:94741175199"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone</span></a>
             </li>
             <li>
-                <a href="sms:+94787469446?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i><span>Message</span></a>
+                <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i><span>Message</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -632,15 +632,15 @@
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: (+94) 78 6188 029
+                            Phone: (+94)74 117 5199
                         </p>
                     </div>
 
                     <div class="cinfo">
                         <h5>Text Us At</h5>
                         <p>
-                            Whatsapp: (+94) 78 6188 029<br>
-                            Telegram: (+94) 78 6188 029
+                            Whatsapp: (+94)74 117 5199<br>
+                            Telegram: (+94)74 117 5199
                         </p>
                     </div>
 
@@ -659,13 +659,13 @@
                             <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i></a>
                         </li>
                         <li>
-                            <a href="https://wa.me/94787469446"><i class='bx bxl-whatsapp' ></i></i></a>
+                            <a href="https://wa.me/94741175199"><i class='bx bxl-whatsapp' ></i></i></a>
                         </li>
                         <li>
-                            <a href="tel:94787469446"><i class='bx bx-phone' ></i></a>
+                            <a href="tel:94741175199"><i class='bx bx-phone' ></i></a>
                         </li>
                         <li>
-                            <a href="sms:+94787469446?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
+                            <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
                         </li>
                     </ul> <!-- end contact-social -->
 
