@@ -73,7 +73,7 @@
     
                 <ul class="header-nav__social">
                     <li>
-                        <a href="https://www.linkedin.com/in/brainvave-software-studios-36811a308/"><i class='bx bxl-linkedin-square' ></i></a>
+                        <a href="https://www.linkedin.com/company/brainvave-software-studios/"><i class='bx bxl-linkedin-square' ></i></a>
                     </li>
                     <li>
                         <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i></a>
@@ -144,7 +144,7 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.linkedin.com/in/brainvave-software-studios-36811a308/"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://www.linkedin.com/company/brainvave-software-studios/"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
             </li>
             <li>
                 <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i><span>Mail</span></a>
@@ -653,7 +653,7 @@
 
                     <ul class="contact-social">
                         <li>
-                            <a href="https://www.linkedin.com/in/brainvave-software-studios-36811a308/"><i class='bx bxl-linkedin-square' ></i></a>
+                            <a href="https://www.linkedin.com/company/brainvave-software-studios/"><i class='bx bxl-linkedin-square' ></i></a>
                         </li>
                         <li>
                             <a href="mailto:hello@brainvave.com"><i class='bx bxl-gmail' ></i></a>
