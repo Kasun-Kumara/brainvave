@@ -82,7 +82,7 @@
                         <a href="https://wa.me/94741175199"><i class='bx bxl-whatsapp' ></i></i></a>
                     </li>
                     <li>
-                        <a href="tel:94741175199"><i class='bx bx-phone' ></i></a>
+                        <a href="tel:+94741175199"><i class='bx bx-phone' ></i></a>
                     </li>
                     <li>
                         <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
@@ -153,7 +153,7 @@
                 <a href="https://wa.me/94741175199"><i class="fa fa-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
             </li>
             <li>
-                <a href="tel:94741175199"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone</span></a>
+                <a href="tel:+94741175199"><i class="fa fa-phone" aria-hidden="true"></i><span>Phone</span></a>
             </li>
             <li>
                 <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i><span>Message</span></a>
@@ -662,7 +662,7 @@
                             <a href="https://wa.me/94741175199"><i class='bx bxl-whatsapp' ></i></i></a>
                         </li>
                         <li>
-                            <a href="tel:94741175199"><i class='bx bx-phone' ></i></a>
+                            <a href="tel:+94741175199"><i class='bx bx-phone' ></i></a>
                         </li>
                         <li>
                             <a href="sms:+94741175199?&body=Hey%20I%20like%20to%20build%20a%20website."><i class='bx bx-message-rounded-dots'></i></a>
