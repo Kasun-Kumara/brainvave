@@ -12,11 +12,12 @@
 	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 	overflow: hidden;
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	height: 100%;
+	height: 340px;
+	min-height: 340px;
+	max-height: 340px;
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
-	min-height: 320px;
 }
 .glass-proj-card.reversed {
 	flex-direction: row-reverse;
@@ -30,7 +31,10 @@
 	border-style: dashed;
 }
 .glass-img-wrapper {
-	width: 45%;
+	width: 52%;
+	min-width: 260px;
+	max-width: 420px;
+	height: 100%;
 	position: relative;
 	overflow: hidden;
 	background: rgba(0, 0, 0, 0.2);
@@ -55,28 +59,41 @@
 	transform: scale(1.05);
 }
 .glass-content {
-	width: 55%;
+	width: 48%;
+	min-width: 0;
 	padding: 3rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex-grow: 1;
+	height: 100%;
+	max-height: 100%;
+	overflow: hidden;
 }
 @media (max-width: 800px) {
-	.glass-proj-card, .glass-proj-card.reversed {
-		flex-direction: column;
-	}
-	.glass-img-wrapper, .glass-content {
-		width: 100%;
-	}
-	.glass-img-wrapper {
-		height: 250px;
-		-webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important;
-		mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important;
-	}
-	.glass-content {
-		padding: 2rem;
-	}
+   .glass-proj-card, .glass-proj-card.reversed {
+	   flex-direction: column;
+	   height: 420px;
+	   min-height: 420px;
+	   max-height: 420px;
+   }
+   .glass-img-wrapper, .glass-content {
+	   width: 100%;
+	   min-width: 0;
+	   max-width: 100%;
+   }
+   .glass-img-wrapper {
+	   height: 250px;
+	   min-height: 180px;
+	   max-height: 250px;
+	   -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important;
+	   mask-image: linear-gradient(to bottom, black 60%, transparent 100%) !important;
+   }
+   .glass-content {
+	   padding: 2rem;
+	   height: 170px;
+	   max-height: 170px;
+   }
 }
 </style>
 
@@ -101,7 +118,27 @@
 			<div class="col-twelve tab-full project-card" style="margin-bottom: 3rem;">
 				<div class="glass-proj-card <?= $is_reversed ? 'reversed' : '' ?>">
 					<div class="glass-img-wrapper">
-						<img src="images/portfolio/<?= htmlspecialchars($project['slug']) ?>.jpg" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
+						   <?php
+						   // Map project name to Project_details image filename
+						   $img_map = [
+							   'ayzack' => 'AyzackGlobalEducation.png',
+							   'diss-master' => 'Diss-Master.png',
+							   'meta-scribe' => 'MetaScribe.png',
+							   'nothing-dialer-1' => 'NothingDialer1.png',
+							   'portal' => 'Portal.png',
+							   'prime-edu' => 'PrimeEdu.png',
+							   'pumpkintours' => 'PumkinTours.png',
+							   'itprolearner' => 'ScrItProLearners.png',
+							   'sonar-code-editor' => 'SonarCodeEditor.png',
+							   'iipe' => 'IIPE.jpg',
+							   'uplect' => 'uplect.webp',
+							   'project-titanic' => 'Titanic-.jpg',
+							   'metal-paas' => 'Metal.jpg',
+							   'arduino-remote' => 'ArduinoUno.jpg',
+						   ];
+						   $img_file = isset($img_map[$project['slug']]) ? 'Project_details/' . $img_map[$project['slug']] : 'images/portfolio/gallery/g-shutterbug.jpg';
+						   ?>
+						   <img src="<?= $img_file ?>" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
 					</div>
 					<div class="glass-content">
 						<h2 class="project-title" style="font-family: 'Poppins', monospace; font-size:2em; margin-bottom:0.5em; color:#fff;">
@@ -150,9 +187,28 @@
 		?>
 			<div class="col-twelve tab-full project-card" style="margin-bottom: 3rem;">
 				<div class="glass-proj-card <?= $is_reversed ? 'reversed' : '' ?>">
-					<div class="glass-img-wrapper">
-						<img src="images/portfolio/<?= htmlspecialchars($project['slug']) ?>.jpg" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
-					</div>
+					   <div class="glass-img-wrapper">
+						   <?php
+						   $img_map = [
+							   'ayzack' => 'AyzackGlobalEducation.png',
+							   'diss-master' => 'Diss-Master.png',
+							   'meta-scribe' => 'MetaScribe.png',
+							   'nothing-dialer-1' => 'NothingDialer1.png',
+							   'portal' => 'Portal.png',
+							   'prime-edu' => 'PrimeEdu.png',
+							   'pumpkintours' => 'PumkinTours.png',
+							   'itprolearner' => 'ScrItProLearners.png',
+							   'sonar-code-editor' => 'SonarCodeEditor.png',
+							   'iipe' => 'IIPE.jpg',
+							   'uplect' => 'uplect.webp',
+							   'project-titanic' => 'Titanic-.jpg',
+							   'metal-paas' => 'Metal.jpg',
+							   'arduino-remote' => 'ArduinoUno.jpg',
+						   ];
+						   $img_file = isset($img_map[$project['slug']]) ? 'Project_details/' . $img_map[$project['slug']] : 'images/portfolio/gallery/g-shutterbug.jpg';
+						   ?>
+						   <img src="<?= $img_file ?>" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
+					   </div>
 					<div class="glass-content">
 						<h2 class="project-title" style="font-family: 'Poppins', monospace; font-size:2em; margin-bottom:0.5em; color:#fff;">
 							<?= htmlspecialchars($project['name']) ?>
@@ -189,8 +245,27 @@
 		?>
 			<div class="col-twelve tab-full project-card" style="margin-bottom: 3rem;">
 				<div class="glass-proj-card glass-proj-card-dashed <?= $is_reversed ? 'reversed' : '' ?>">
-					<div class="glass-img-wrapper" style="border-bottom-style: dashed;">
-						<img src="images/portfolio/<?= htmlspecialchars($project['slug']) ?>.jpg" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
+					   <div class="glass-img-wrapper" style="border-bottom-style: dashed;">
+						   <?php
+						   $img_map = [
+							   'ayzack' => 'AyzackGlobalEducation.png',
+							   'diss-master' => 'Diss-Master.png',
+							   'meta-scribe' => 'MetaScribe.png',
+							   'nothing-dialer-1' => 'NothingDialer1.png',
+							   'portal' => 'Portal.png',
+							   'prime-edu' => 'PrimeEdu.png',
+							   'pumpkintours' => 'PumkinTours.png',
+							   'itprolearner' => 'ScrItProLearners.png',
+							   'sonar-code-editor' => 'SonarCodeEditor.png',
+							   'iipe' => 'IIPE.jpg',
+							   'uplect' => 'uplect.webp',
+							   'project-titanic' => 'Titanic-.jpg',
+							   'metal-paas' => 'Metal.jpg',
+							   'arduino-remote' => 'ArduinoUno.jpg',
+						   ];
+						   $img_file = isset($img_map[$project['slug']]) ? 'Project_details/' . $img_map[$project['slug']] : 'images/portfolio/gallery/g-shutterbug.jpg';
+						   ?>
+						   <img src="<?= $img_file ?>" onerror="this.src='images/portfolio/gallery/g-shutterbug.jpg'" alt="<?= htmlspecialchars($project['name']) ?>">
 					</div>
 					<div class="glass-content">
 						<h2 class="project-title" style="font-family: 'Poppins', monospace; font-size:1.5em; margin-bottom:0.5em; color:#fff;">
